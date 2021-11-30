@@ -42,7 +42,7 @@ function App() {
         <div className="container">
           <div className="container my-3">
             <Routes>
-              <Route path="/about" element={<About/>}/>
+              <Route path="/about" element={<About mode={mode}/>}/>
               <Route path="/" element={<TextArea showAlert={showAlert} heading="Enter your text below" mode={mode} />}/>
             </Routes>
           </div>
